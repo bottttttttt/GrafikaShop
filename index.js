@@ -38,7 +38,7 @@ $(document).ready(function(){
 
 
     // new phones owl carousel
-    $("#new-phones .owl-carousel").owlCarousel({
+    $("#new-books .owl-carousel").owlCarousel({
         loop: true,
         nav: false,
         dots: true,

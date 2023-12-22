@@ -23,7 +23,7 @@
     /*  include banner ads  */
 
     /*  include НОВИНКИ section  */
-        include ('Template/_new-phones.php');
+        include ('Template/_new-books.php');
     /*  include new phones section  */
 
     /*  include blog area  */
