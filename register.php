@@ -11,7 +11,7 @@
 <form class="card" action="src/actions/login.php" method="post">
 <head>
     <meta charset="UTF-8">
-    <title>Авторизация и регистрация</title>
+    <title>Grafika</title>
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
