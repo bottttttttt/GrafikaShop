@@ -36,6 +36,6 @@ if ($_SESSION['user']) {
     <script src="assets/js/jquery-3.4.1.min.js"></script>
     <script src="assets/js/main.js"></script>
     </form>
-    <?php include_once __DIR__ . '/components/scripts.php' ?>
+
 </body>
 </html>
