@@ -1,7 +1,14 @@
 <?php
-ob_start();
-// include header.php file
-include ('header.php');
+    ob_start();
+    // include header.php file
+
+    session_start();
+
+    if(isset($_SESSION['user'])){
+        require_once("header-singed.php");
+    }else{  
+        require_once("header.php");
+    }
 ?>
 
 <?php
