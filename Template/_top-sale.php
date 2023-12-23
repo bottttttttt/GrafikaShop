@@ -31,7 +31,7 @@
                             <span><i class="far fa-star"></i></span>
                         </div>
                         <div class="price py-2">
-                            <span>$<?php echo $item['item_price'] ?? '0' ; ?></span>
+                            <span><?php echo $item['item_price'] ?? '0' ; ?>Р</span>
                         </div>
                         <form method="post">
                             <input type="hidden" name="item_id" value="<?php echo $item['item_id'] ?? '1'; ?>">
@@ -42,7 +42,8 @@
                             }else{
                                 echo '<button type="submit" name="top_sale_submit" class="btn btn-warning font-size-12">В корзину</button>';
                             }
-                            ?>
+                            ?>                    
+
 
                         </form>
                     </div>

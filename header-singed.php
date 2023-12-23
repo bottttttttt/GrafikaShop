@@ -34,8 +34,8 @@
             <p class="font-rale font-size-12 text-black-50 m-0">Боттаева Диана 8(916)554-15-78 МосПолитех</p>        
           
             <div class="font-rale font-size-14">
-                <a href="login.php" class="px-3 border-right border-left text-dark">Вход</a>
-                <a href="register.php" class="px-3 border-right text-dark">Регистрация</a>
+                <a href="profile.php" class="px-3 border-right border-left text-dark">Профиль</a>
+                <a href="vendor/logout.php" class="px-3 border-right text-dark">Выйти</a>
             </div>
         </div>
 

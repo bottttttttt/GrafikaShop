@@ -12,13 +12,21 @@
                 <div class="form-row pt-4 font-size-16 font-fira_mono">
 
                     <div class="col">
-                        <?php
-                        if (in_array($item['item_id'], $Cart->getCartId($product->getData('cart')) ?? [])){
-                            echo '<button type="submit" disabled class="btn btn-success font-size-16 form-control">В корзине</button>';
-                        }else{
-                            echo '<button type="submit" name="top_sale_submit" class="btn btn-warning font-size-16 form-control">В корзину</button>';
-                        }
-                        ?>
+                    <?php
+                        session_start();
+                            if(isset($_SESSION['user'])){
+                                    require_once("login.php");
+                                }else{  
+                                    if (in_array($item['item_id'], $Cart->getCartId($product->getData('cart')) ?? [])){
+                                        echo '<button type="submit" disabled class="btn btn-success font-size-16 form-control">В корзине</button>';
+                                    }else{
+                                        echo '<button type="submit" name="top_sale_submit" class="btn btn-warning font-size-16 form-control">В корзину</button>';
+                                    }
+                                }
+    
+                            ?>
+
+                       
                     </div>
                 </div>
             </div>
