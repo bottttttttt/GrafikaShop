@@ -62,8 +62,6 @@
                     <a class="nav-link" href="#">Новое</a>
                   </li>
                 </ul>
-                    </a>
-                </form>
               </div>
             </div>
           </nav>
